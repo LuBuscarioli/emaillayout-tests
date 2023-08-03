@@ -22,7 +22,22 @@ body {
     padding: 1rem 0 1rem 0;
 }
 
-.nav-links {
+.nav-text h1{
+    text-align: center;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.text-upper {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding:0.2rem 0.4rem 0.2rem 0.4rem;
+    color: aliceblue;
+    background-color: #662377;
+    border-radius: 10px;
+}
+
+/* .nav-links {
     display: flex;
     justify-content: space-evenly;
 }
@@ -30,7 +45,7 @@ body {
 .nav-links a{
     text-decoration: none;
     color: rgb(17, 0, 59);
-}
+} */
 
 .main-product {
     display: flex;
