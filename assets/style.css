@@ -88,10 +88,10 @@ body {
     margin-bottom: 1rem;
 }
 
-.fit-image {
+/* .fit-image {
     height: 250px;
     object-fit: cover;
-}
+} */
 
 .products-grid {
     display: flex;
