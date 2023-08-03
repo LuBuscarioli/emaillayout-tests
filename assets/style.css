@@ -38,6 +38,10 @@ body {
     flex-direction: column;
 }
 
+.main-product p {
+    padding: 0 4rem 0 4rem;
+}
+
 .main-product h1, .main-product p {
     text-align: center;
     margin: 1rem 0 1rem 0;
@@ -58,9 +62,14 @@ body {
 }
 
 .card-img {
-    width: 66%;
+    width: 70%;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgb(122, 122, 122);
+}
+
+.fit-image {
+    height: 250px;
+    object-fit: cover;
 }
 
 .products-grid {
